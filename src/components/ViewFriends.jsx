@@ -21,9 +21,9 @@ const ViewFriends = () => {
                 <table class="table">
   <thead>
     <tr>
-      <th scope="col">ID</th>
       <th scope="col">NAME</th>
       <th scope="col">FRIEND NAME</th>
+      <th scope="col">FRIEND NICK NAME</th>
       <th scope="col">DESCRIPTION</th>
     </tr>
   </thead>
@@ -32,7 +32,6 @@ const ViewFriends = () => {
         (value,index) => {
             return <tbody>
             <tr>
-              <td>{value._id}</td>
               <td>{value.name}</td>
               <td>{value.friendName}</td>
               <td>{value.friendNickName}</td>

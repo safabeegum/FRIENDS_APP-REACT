@@ -6,9 +6,9 @@ const AddFriend = () => {
     const[data,seData]=useState(
         {
             "name": "",
- "friendName": "",
- "friendNickName":"",
- "DescribeYourFriend":""
+            "friendName": "",
+            "friendNickName":"",
+            "DescribeYourFriend":""
 
         }
     )
